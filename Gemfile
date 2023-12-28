@@ -48,9 +48,6 @@ gem "bootsnap", require: false
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
-  
-  # Use pg as the database for Active Record
-  gem 'pg', '~> 1.5', '>= 1.5.4'
 end
 
 group :development do
@@ -70,8 +67,8 @@ group :test do
   gem "selenium-webdriver"
 end
 
-# Production gems grouped separately
-group :production do
-  # Use PostgreSQL as the database for Active Record
-  gem 'pg', '~> 1.5', '>= 1.5.4'
-end
+# Use pg as the database for Active Record
+gem 'pg', '~> 1.5', '>= 1.5.4'
+
+# devise gem
+gem 'devise', '~> 4.9', '>= 4.9.3'
