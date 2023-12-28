@@ -1,7 +1,6 @@
-# frozen string literal: true
+# frozen_string_literal: true
 
+# Home page controller
 class WelcomeController < ApplicationController
-  def index
-    render plain: 'Hello, World!'
-  end
+  def index; end
 end
