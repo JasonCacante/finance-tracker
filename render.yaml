@@ -1,7 +1,7 @@
 databases:
-  - name: finance-tracker
+  - name: finance_tracker_pg
     databaseName: finance_tracker_production
-    user: mysite
+    user: admin
     plan: free
 
 services:
