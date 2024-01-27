@@ -72,3 +72,12 @@ gem 'pg', '~> 1.5', '>= 1.5.4'
 
 # devise gem
 gem 'devise', '~> 4.9', '>= 4.9.3'
+
+# cssbuilder gem
+gem 'cssbundling-rails', '~> 1.3', '>= 1.3.3'
+
+# bootstrap gem
+gem 'devise-bootstrap-views', '~> 1.0'
+
+# iex-ruby-client gem
+gem 'iex-ruby-client', '~> 2.1'
