@@ -81,3 +81,6 @@ gem 'devise-bootstrap-views', '~> 1.0'
 
 # iex-ruby-client gem
 gem 'iex-ruby-client', '~> 2.1'
+
+# font-awesome-sass gem
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.8'
